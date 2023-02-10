@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6{
 
 }
 header{
-    background-color: rgb(247, 235, 255);
+    background-color: rgb(215, 237, 253);
 }
 .top-header{
     text-align: center;
@@ -88,7 +88,7 @@ header{
 
 .middle-content{
     padding:2em;
-    background:rgb(250, 226, 252);
+    background:rgb(205, 233, 255);
     text-align: center;
 }
 
@@ -214,11 +214,9 @@ float:left;
 
 @media screen and (min-width:58.5em){
 .top-content{
-    background:#521a66 url(/Responsividade/images/bg_topo_1198x670.jpg);
-    background-position:initial;
-    height: 23em;
+    background:#521a66 url(./images/background-novo.jpg);
     padding-top: 8em;
-    background-size:cover;
+    background-size: cover;
     }
 
     .icon-play{
@@ -235,6 +233,14 @@ float:left;
 .icon-play{
     height:5em;
     display:block;
+}
+
+header{
+    background:rgb(215, 237, 253);
+}
+
+.middle-content{
+    background:brgb(215, 237, 253);
 }
 
 .col1-4{
