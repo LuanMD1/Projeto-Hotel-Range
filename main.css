@@ -32,18 +32,19 @@ h6 {
 .button,
 .button2 {
   display: inline-block;
-  background: rgb(235, 182, 103);
+  background: rgb(59, 144, 184);
   padding: 1em;
   width: 150px;
   border-radius: 12px;
-  color: white;
+  font-size: bold;
   text-decoration: none;
+  color: white;
   text-align: center;
 }
 
 .button:hover,
 .button2:hover {
-  background: rgb(59, 144, 184);
+    background: rgb(72, 87, 170);
 }
 
 header {
@@ -99,8 +100,9 @@ header {
 }
 
 .top-nav a:hover {
-  background: rgb(231, 153, 231);
+  background: rgb(121, 27, 121);
   padding: 1em;
+  opacity: 90%;
 }
 
 .middle-content {
@@ -216,8 +218,9 @@ span {
     font-weight: bold;
   }
   .top-nav a:hover {
-    color: #7ed9fc;
-    border-radius: 15%;
+    color: #ffffff;
+    border-radius: 10%;
+    transition: all 0.5s ease-in-out;
   }
 
   .col1-4 {
